@@ -198,7 +198,7 @@
 		var myOptions = {
 			center: new google.maps.LatLng(20, 0),
 			zoom: 3,
-			mapTypeId: google.maps.MapTypeId.ROADMAP
+			mapTypeId: google.maps.MapTypeId.HYBRID
 		}
 
 		map = new google.maps.Map(document.getElementById("map"), myOptions);
