@@ -198,7 +198,8 @@
 		var myOptions = {
 			center: new google.maps.LatLng(20, 0),
 			zoom: 3,
-			mapTypeId: google.maps.MapTypeId.HYBRID
+			mapTypeId: google.maps.MapTypeId.HYBRID,
+			mapTypeControl: false
 		}
 
 		map = new google.maps.Map(document.getElementById("map"), myOptions);
