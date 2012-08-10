@@ -18,8 +18,32 @@ section {
 }
 
 /****************** Site styles ******************/
-.toolbox { position: absolute; height: 300px; width: 180px; background-color: #ffffff; border: 2px solid #000000; top: 50px; right: 50px; }
+.toolbox {
+	position: absolute;
+	height: 300px;
+	width: 220px;
+	background-color: #f7f7f7;
+	border-color: #ccc;
+	top: 50px;
+	right: 50px;
+}
+
+.toolbox .btn-primary {
+	padding-bottom: 8px;
+	padding-top: 13px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.toolbox .btn-primary i {
+	font-size: 26px;
+	vertical-align: middle;
+}
 
 #main, #map {
 	height: 100%;
+}
+
+#map img {
+  max-width: none;
 }
