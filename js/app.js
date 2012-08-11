@@ -1,5 +1,4 @@
-﻿
-(function () {
+﻿(function ($, _, Backbone, undefined) {
 
 	// Declare namespace
 	$.extend(window, { HowGlobalAmI: {} });
@@ -218,4 +217,4 @@
 	HowGlobalAmI.initCluster = initCluster;
 	window.initializeGoogleMaps = initializeGoogleMaps;
 
-})();
+})(jQuery, _, Backbone);
